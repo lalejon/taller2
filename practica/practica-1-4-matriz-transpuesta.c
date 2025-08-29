@@ -20,8 +20,8 @@ MATRIZ TRANSPUESTA
 
 int main () {
     int i, j, filas=2, columnas=5;    // columnas
-    int original[filas][columnas]; // arreglo matriz vacìo de 2 filas x 5 columnas
-    int transpuesta[columnas][filas]; // arreglo matriz vacìo de 5 filas x 2 columnas
+    int original[filas][columnas]; // arreglo matriz vacÃ¬o de 2 filas x 5 columnas
+    int transpuesta[columnas][filas]; // arreglo matriz vacÃ¬o de 5 filas x 2 columnas
 
     printf("\n Programa que crea la transpuesta de una matriz dada\n");
 
@@ -47,7 +47,7 @@ int main () {
     printf("\n Matriz transpuesta es \n");
     for (j=0; j<columnas; j++) {
         for (i=0; i<filas; i++) {
-            transpuesta[j][i] = original [i][j];    // hago la transposición de datos
+            transpuesta[j][i] = original [i][j];    // hago la transposiciÃ³n de datos
                                                     // esto es clave !!!!!!!!!!!!!
             printf(" [%d][%d] > %d\t ", j+1, i+1, transpuesta[j][i]);    // muestro datos por celda y tabulados
         } // for cols
