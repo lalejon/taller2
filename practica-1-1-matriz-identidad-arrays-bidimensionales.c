@@ -1,17 +1,13 @@
-
-/*
-    Imprimir el arreglo de la funcion identidad NxN
-
-*/
+/* Imprimir el arreglo de la funcion identidad NxN */
 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main() {
-    int N=3;            // tamaño de la matriz
+    int N=3;            // tamaÃ±o de la matriz
     int row=N;
     int col=N;
-    int matriz_Id[row][col]; // arreglo matriz identidad vacìo
+    int matriz_Id[row][col]; // arreglo matriz identidad vacÃ¬o
 
     for (row=0; row<N; row++){
         for (col=0; col<N; col++){
@@ -36,3 +32,4 @@ int main() {
 
 return 0;
 }
+
